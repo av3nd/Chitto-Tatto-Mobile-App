@@ -158,7 +158,9 @@ class _AuthScreenState extends State<AuthScreen> {
                         ),
                         CustomButton(
                           text: "Sign in",
-                          onTap: () {},
+                          onTap: () {
+                            Navigator.pushNamed(context, '/dashboardRoute');
+                          },
                         )
                       ],
                     ),

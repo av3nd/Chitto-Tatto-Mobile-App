@@ -1,4 +1,5 @@
 import 'package:chittotato/view/auth_screen.dart';
+import 'package:chittotato/view/dashboard_screen.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
@@ -11,6 +12,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => const AuthScreen(),
+        '/dashboardRoute': (context) => const DashboardScreen(),
       },
     );
   }
