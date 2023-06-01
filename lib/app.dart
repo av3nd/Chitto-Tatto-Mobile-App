@@ -1,4 +1,5 @@
 import 'package:chitto_tatto/routes/app_routes.dart';
+import 'package:chitto_tatto/themes/app_theme.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
@@ -10,7 +11,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: AppRoute.loginRegister,
       routes: AppRoute.getAppRoutes(),
-      // theme: AppTheme.getApplicationTheme(),
+      theme: AppTheme.getApplicationTheme(),
     );
   }
 }

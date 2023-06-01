@@ -1,6 +1,6 @@
-import 'package:chittotato/common/widgets/custom_button.dart';
-import 'package:chittotato/common/widgets/custom_textfield.dart';
-import 'package:chittotato/constants/global_variables.dart';
+import 'package:chitto_tatto/common/widgets/custom_button.dart';
+import 'package:chitto_tatto/common/widgets/custom_textfield.dart';
+import 'package:chitto_tatto/constants/global_variables.dart';
 import 'package:flutter/material.dart';
 
 enum Auth {
