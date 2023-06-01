@@ -5,7 +5,7 @@ class AppRoute {
   AppRoute._();
 
   static const String loginRegister = '/';
-  static const String bottomBarRoute = '/home';
+  static const String bottomBarRoute = '/bottomBarRoute';
 
   static getAppRoutes() {
     return {
